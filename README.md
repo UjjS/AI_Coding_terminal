@@ -69,3 +69,5 @@ pip install dist/ai_terminal_assistant-2.0.0.tar.gz
 ai-assistant
 
 ```
+## Install from here 
+[Download the .tar.z file](https://github.com/UjjS/AI_Coding_terminal/raw/main/yourfile.tar.z)
