@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-terminal-assistant"
+version = "2.0.0" # Keep in sync with __init__.py or manage centrally
+authors = [
+    { name = "Your Name", email = "your.email@example.com" },
+]
+description = "An AI-powered terminal assistant with a PyQt6 GUI, similar to Claude Code & Warp."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License", # Choose your license
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",      # Or "3 - Alpha", "5 - Production/Stable"
+    "Environment :: X11 Applications :: Qt",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Terminals",
+]
+dependencies = [
+    "PyQt6>=6.0.0,<7.0.0",
+    "openai>=1.0.0", # Check the version you are using
+    # Add other direct dependencies here if any
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yourusername/ai-terminal-assistant" # Optional
+"Bug Tracker" = "https://github.com/yourusername/ai-terminal-assistant/issues" # Optional
+
+[project.scripts]
+ai-terminal-assistant = "ai_terminal_assistant.main_gui:run_assistant"

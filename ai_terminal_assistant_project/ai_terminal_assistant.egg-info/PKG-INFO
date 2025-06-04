@@ -1,0 +1,20 @@
+Metadata-Version: 2.4
+Name: ai-terminal-assistant
+Version: 2.0.0
+Summary: An AI-powered terminal assistant with a PyQt6 GUI, similar to Claude Code & Warp.
+Author-email: Your Name <your.email@example.com>
+Project-URL: Homepage, https://github.com/yourusername/ai-terminal-assistant
+Project-URL: Bug Tracker, https://github.com/yourusername/ai-terminal-assistant/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Terminals
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: PyQt6<7.0.0,>=6.0.0
+Requires-Dist: openai>=1.0.0

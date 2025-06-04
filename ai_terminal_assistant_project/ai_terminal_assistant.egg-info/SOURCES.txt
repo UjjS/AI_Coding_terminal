@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+ai_terminal_assistant/__init__.py
+ai_terminal_assistant/ai_utils.py
+ai_terminal_assistant/main_gui.py
+ai_terminal_assistant.egg-info/PKG-INFO
+ai_terminal_assistant.egg-info/SOURCES.txt
+ai_terminal_assistant.egg-info/dependency_links.txt
+ai_terminal_assistant.egg-info/entry_points.txt
+ai_terminal_assistant.egg-info/requires.txt
+ai_terminal_assistant.egg-info/top_level.txt

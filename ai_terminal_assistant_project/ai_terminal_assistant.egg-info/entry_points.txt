@@ -1,0 +1,2 @@
+[console_scripts]
+ai-terminal-assistant = ai_terminal_assistant.main_gui:run_assistant
